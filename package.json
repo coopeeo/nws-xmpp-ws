@@ -1,0 +1,27 @@
+{
+  "name": "nws-xmpp-ws",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [],
+  "author": "coopeeo",
+  "license": "GPL-3.0-or-later",
+  "description": "A NWWS-OI xmpp to websockets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopeeo/nws-xmpp-ws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coopeeo/nws-xmpp-ws/issues"
+  },
+  "homepage": "https://github.com/coopeeo/nws-xmpp-ws#readme",
+  "dependencies": {
+    "@xmpp/client": "^0.13.6",
+    "dotenv": "^17.2.0",
+    "fast-xml-parser": "^5.2.5",
+    "ws": "^8.18.3"
+  }
+}
