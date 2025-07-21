@@ -1,5 +1,6 @@
 import { WebSocketServer } from 'ws';
 import { client, xml } from '@xmpp/client';
+import debug from '@xmpp/debug';
 import dotenv from 'dotenv';
 import { XMLParser } from 'fast-xml-parser';
 
@@ -13,6 +14,8 @@ const xmpp = client({
   username: process.env.XMPP_USERNAME,
   password: process.env.XMPP_PASSWORD,
 });
+
+debug(xmpp, false)
 
 const wss = new WebSocketServer({ port: process.env.PORT || 5222 });
 
