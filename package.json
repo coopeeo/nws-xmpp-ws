@@ -20,6 +20,7 @@
   "homepage": "https://github.com/coopeeo/nws-xmpp-ws#readme",
   "dependencies": {
     "@xmpp/client": "^0.13.6",
+    "@xmpp/debug": "^0.13.5",
     "dotenv": "^17.2.0",
     "fast-xml-parser": "^5.2.5",
     "ws": "^8.18.3"
